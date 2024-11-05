@@ -1,0 +1,94 @@
+/* PopStarCollection.css */
+.popstar-grid{
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px; 
+  margin-top: 20px;
+}
+.popstar-card {
+  background-color: #1a1a1a; /* Dark background */
+  border: 2px solid #ff00ff; /* Neon border for emphasis */
+  padding: 20px;
+  border-radius: 8px;
+  color: #f0f0f0; /* Light text color for contrast */
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popstar-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 0, 255, 0.5); /* Neon shadow effect */
+}
+
+.popstar-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px; /* Slightly rounded corners */
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.popstar-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.popstar-collection {
+  font-size: 0.9rem;
+  color: #ddd; /* Light color for contrast */
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.collection-item {
+  margin: 4px 0;
+}
+
+.shop-button {
+  background-color: #ff00ff; /* Neon button color */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #d100d1;
+}
+.product-view {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.product-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 4px;
+}
+.close-button {
+  background-color: #ff0050;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
